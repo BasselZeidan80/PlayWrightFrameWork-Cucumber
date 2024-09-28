@@ -1,0 +1,7 @@
+top open server jenkins
+java -jar jenkins.war -httpPort=9090
+
+create item :
+assign path after select custom workspace
+create npm run "%Script%"
+- build now 
